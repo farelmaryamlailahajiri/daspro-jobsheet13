@@ -17,7 +17,9 @@ public class UcapanTerimaKasih11 {
     }
     public static void main(String[] args) {
         UcapanTerimaKasih();
-        
+        String nama = PenerimaUcapan();
+        String ucapan = "Thanks gais" +nama+ " semoga kuat sampai tamat";
+        UcapanTambahan(ucapan);
     }
 
 }
